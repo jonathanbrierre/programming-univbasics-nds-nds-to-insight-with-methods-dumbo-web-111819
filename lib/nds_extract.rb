@@ -33,5 +33,5 @@ def gross_for_director(director_data)
       
   end
   gross_total
-  binding.pry
+  
 end

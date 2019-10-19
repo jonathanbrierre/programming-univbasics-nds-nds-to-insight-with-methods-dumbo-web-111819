@@ -35,6 +35,6 @@ def gross_for_director(director_data)
       movie_index += 1 
     end
     results[director_data[:name]] = gross_total
-
+    result
   
 end

@@ -25,6 +25,7 @@ end
 # Find a way to accumulate the :worldwide_grosses and return that Integer
 # using director_data as input
 def gross_for_director(director_data)
+  binding.pry
   movie_index = 0 
   gross_total = 0 
   while movie_index < directors_database[director_data][:movies].lenth do
